@@ -1,0 +1,3 @@
+﻿  20pract.cpp
+D:\Egor\CFU\Pract\20pract\20pract.cpp(77): warning C4715: fillingOutArr: значение возвращается не при всех путях выполнения
+  20pract.vcxproj -> D:\Egor\CFU\Pract\20pract\Debug\20pract.exe
