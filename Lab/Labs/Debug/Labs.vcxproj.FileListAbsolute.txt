@@ -1,0 +1,2 @@
+C:\Egor\Programming\CFU\Lab\Labs\Debug\Labs.exe
+C:\Egor\Programming\CFU\Lab\Labs\Debug\Labs.pdb
