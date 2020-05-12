@@ -108,7 +108,7 @@ int main()
   <img src= "./pic/2.png" width="900" alt="Значения">
   <figcaption> <i>Рис.2 Значения </i></figcaption>
   </figure>
-<br/>
+<br/><br/>
 <figure class="sign">
   <img src= "./pic/3.png" width="900" alt="Графики и точки">
   <figcaption> <i>Рис.3 Графики и точки </i></figcaption>
