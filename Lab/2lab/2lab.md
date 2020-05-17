@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
  <html>
  <head>
- <title>1lab_Slobodskoy</title>
  </head>
  <body>
  
@@ -15,8 +14,8 @@
 ### Отчёт по лабораторной работе № 2<br/> по дисциплине "Программирование"
 <br/>
  
-студента 1 курса группы ИВТ 192(1)  
-Слободского Егора Вячеславовича
+студента 1 курса группы ИВТ-б-о-192(1)<br/>
+Слободского Егора Вячеславовича<br/>
 направления подготовки 09.03.01 "Информатика и вычислительная техника"  
 <br/>
  
@@ -48,7 +47,7 @@
   
   <figure class="sign">
   <img src= "./pic/1.png" width="400" alt="Функция Вариант 5">
-  <figcaption> <i>Рис.1 Функция </i></figcaption>
+  <figcaption> <i><br/>Рис.1 Функция </i></figcaption>
   </figure>
   
   <br/>
@@ -63,6 +62,7 @@ using namespace std;
 
 int main()
 {
+    setlocale(LC_ALL, "Russian");
     double a, b, xStart, xEnd, dx;
     double x, F, fMin, fMax;
 
@@ -78,7 +78,7 @@ int main()
     cin >> dx;
 
     for (x = xStart; x <= (xEnd + dx / 2); x += dx){
-        if (x <= a) F = x - 2 * (pow(cos(x),2));
+        if (x <= a + dx) F = x - 2 * (pow(cos(x),2));
         else if (x > a && x < b) F = log(x) * sin(x);
         else if (x >= b) F = 1.3 + sin(x);
         
@@ -106,12 +106,12 @@ int main()
 
 <figure class="sign">
   <img src= "./pic/2.png" width="900" alt="Значения">
-  <figcaption> <i>Рис.2 Значения </i></figcaption>
+  <figcaption> <i><br/>Рис.2 Значения </i></figcaption>
   </figure>
 <br/><br/>
 <figure class="sign">
   <img src= "./pic/3.png" width="900" alt="Графики и точки">
-  <figcaption> <i>Рис.3 Графики и точки </i></figcaption>
+  <figcaption> <i><br/>Рис.3 Графики и точки </i></figcaption>
   </figure>
   
    

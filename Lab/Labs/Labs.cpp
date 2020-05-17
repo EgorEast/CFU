@@ -5,10 +5,11 @@ using namespace std;
 
 int main()
 {
+    setlocale(LC_ALL, "Russian");
     double a, b, xStart, xEnd, dx;
     double x, F, fMin, fMax;
 
-    /*cout << "Введите a:";
+    cout << "Введите a:";
     cin >> a;
     cout << endl << "Введите b:";
     cin >> b;
@@ -17,13 +18,11 @@ int main()
     cout << endl << "Введите xEnd:";
     cin >> xEnd;
     cout << endl << "Введите dx:";
-    cin >> dx;*/
-
-
-    a = 0.7, b = 1.2, xStart = 0.5, xEnd = 1.5, dx = 0.05;
+    cin >> dx;
+    a = 0.7; b = 1.2; xStart = 0.5; xEnd = 1.5; dx = 0.05;
 
     for (x = xStart; x <= (xEnd + dx / 2); x += dx){
-        if (x <= a) F = x - 2 * (pow(cos(x),2));
+        if (x <= a + dx) F = x - 2 * (pow(cos(x),2));
         else if (x > a && x < b) F = log(x) * sin(x);
         else if (x >= b) F = 1.3 + sin(x);
         
