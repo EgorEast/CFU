@@ -104,14 +104,14 @@ int main()
 * добавьте на график точки минимума и максимума с метками значений;
 
 
-<figure class="sign">
+  <figure class="sign">
   <img src= "./pic/2.png" width="900" alt="Значения">
   <figcaption> <i><br/>Рис.2 Значения </i></figcaption>
   </figure>
   
 <br/><br/>
 
-<figure class="sign">
+  <figure class="sign">
   <img src= "./pic/3.png" width="900" alt="Графики и точки">
   <figcaption> <i><br/>Рис.3 Графики и точки </i></figcaption>
   </figure>
