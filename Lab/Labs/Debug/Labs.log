@@ -1,2 +1,5 @@
 ﻿  Labs.cpp
+C:\Egor\Programming\CFU\Lab\Labs\Labs.cpp(7,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Egor\Programming\CFU\Lab\Labs\Labs.cpp(9,27): warning C4101: jmax: неиспользованная локальная переменная
+C:\Egor\Programming\CFU\Lab\Labs\Labs.cpp(9,21): warning C4101: imax: неиспользованная локальная переменная
   Labs.vcxproj -> C:\Egor\Programming\CFU\Lab\Labs\Debug\Labs.exe

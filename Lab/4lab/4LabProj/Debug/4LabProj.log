@@ -1,0 +1,3 @@
+﻿  Game.cpp
+C:\Egor\Programming\CFU\Lab\4lab\4LabProj\Game.cpp(14,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  4LabProj.vcxproj -> C:\Egor\Programming\CFU\Lab\4lab\4LabProj\Debug\4LabProj.exe
