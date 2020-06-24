@@ -47,7 +47,7 @@ public:
 //Функция, для чтения из строки необходимого параметра и его возвращения
 string read(
 	//Передаю саму строку
-	string string, 
+	string string,
 	//И разделитель
 	std::string del) {
 	//Задаю начальное положение для считывания, исходя из предыдущего результата
@@ -69,7 +69,7 @@ int main() {
 	//Создаю вектор, который будет хранить данные обо всех пассажирах
 	vector
 		//Тип объектов это класс Passenger
-		<Passenger> 
+		<Passenger>
 		passengers;
 	//Создаю экземпляр класса, предназначенный для чтения данных из файла 
 	ifstream fin;
@@ -116,8 +116,9 @@ int main() {
 		passenger.pClass = stoi(readText);
 
 		passenger.name = read(strInData, "\",");
+
 		readText = read(strInData, ",");
-		if (readText == "male") passenger.sex = "Male";
+		if (readText == "male" || readText == "Male") passenger.sex = "Male";
 		else passenger.sex = "Female";
 
 		//Читаю и
@@ -186,7 +187,7 @@ int main() {
 			if (passengers[i].pClass == 1) survivors1++;
 			else if (passengers[i].pClass == 2) survivors2++;
 			else if (passengers[i].pClass == 3) survivors3++;
-			
+
 			if (passengers[i].age != -1) {
 				//Теперь суммирую возраст и сохранияю количество пасажиров
 				agePerson += passengers[i].age;
@@ -206,7 +207,7 @@ int main() {
 				else {
 					ageMen += passengers[i].age;
 					totalMen++;
-				}	
+				}
 			}
 		}
 	}
@@ -241,7 +242,7 @@ int main() {
 	fout << "Количество выживших мужчин: " << survivorsMen << endl;
 
 	//Вывод в файл среднего возраста
-	if (totalPerson > 0) fout << "Средний возраст пассажира: " << agePerson / totalPerson << endl; 
+	if (totalPerson > 0) fout << "Средний возраст пассажира: " << agePerson / totalPerson << endl;
 	if (totalMen > 0) fout << "Средний возраст мужчин: " << ageMen / totalMen << endl;
 	if (totalWomen > 0) fout << "Средний возраст женщин: " << ageWomen / totalWomen << endl;
 	//Вывод о штате, в котором село больше всего пассажиров
@@ -254,7 +255,7 @@ int main() {
 	if (embarkedC > embarkedQ) { CMore = true; QMore = false; }
 	else if (embarkedC < embarkedQ) { CMore = false; QMore = true; }
 	else if (embarkedC == embarkedQ) { CMore = true; QMore = true; }
-	
+
 	if (CMore != QMore) {
 		if (CMore) {
 			if (embarkedC > embarkedS) { CMore = true; SMore = false; }
