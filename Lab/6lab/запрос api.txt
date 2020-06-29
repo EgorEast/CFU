@@ -1,0 +1,4 @@
+http://api.openweathermap.org/data/2.5/forecast?q=Simferopol&units=metric&appid=8972fd830382f29a6444f8d201551687
+
+с русским языком
+http://api.openweathermap.org/data/2.5/forecast?q=Simferopol&units=metric&lang=ru&appid=8972fd830382f29a6444f8d201551687

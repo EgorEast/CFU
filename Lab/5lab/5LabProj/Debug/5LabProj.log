@@ -1,6 +1,6 @@
 ﻿  main.cpp
-C:\Egor\Programming\CFU\Lab\5lab\5LabProj\main.cpp(128,24): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Egor\Programming\CFU\Lab\5lab\5LabProj\main.cpp(143,24): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Egor\Programming\CFU\Lab\5lab\5LabProj\main.cpp(172,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Egor\Programming\CFU\Lab\5lab\5LabProj\main.cpp(296,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Egor\Programming\CFU\Lab\5lab\5LabProj\main.cpp(129,24): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Egor\Programming\CFU\Lab\5lab\5LabProj\main.cpp(144,24): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Egor\Programming\CFU\Lab\5lab\5LabProj\main.cpp(173,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Egor\Programming\CFU\Lab\5lab\5LabProj\main.cpp(297,22): warning C4018: <: несоответствие типов со знаком и без знака
   5LabProj.vcxproj -> C:\Egor\Programming\CFU\Lab\5lab\5LabProj\Debug\5LabProj.exe
