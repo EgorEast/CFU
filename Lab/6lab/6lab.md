@@ -64,12 +64,11 @@
 **1. Мой ApiKey:** 972fd830382f29a6444f8d201551687<br/>
 
 **2. Результат запроса в формате json:**
-
   <figure class="sign">
   <img src= "./pic/1.png" width="1000" alt="Json ответ">
   <figcaption> <i><br/>Рис.1 Json ответ </i></figcaption>
   </figure>
-  <br/>
+  <br/><br/>
 
 **3. Код программы *"6labProj.cpp"*:**
  
