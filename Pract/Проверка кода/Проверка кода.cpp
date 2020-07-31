@@ -1,18 +1,21 @@
 ﻿#include <iostream>
 // #include <ctime> // раскомментируйте, если используете Code::Blocks
 #include <random> // для std::random_device и std::mt19937
+#include <string>
 
 using namespace std;
+const int WIDTH = 2;
+const int HEIGHT = 3;
+void map (string str[]) {
+	for (int i = 0; i < WIDTH; i++) {
+		cout << str[i];
+	}
+}
+
+
+
 int main()
 {
-	
-	do {
-		int i = 0;
-		i++;
-		cout << i;
-	} while (i<1);
-	/*for (int i = 0; i < 10; i++) {
-		while (i % 3) i++;
-		cout << i;
-	}*/
+	string str[WIDTH] = { "dsf", "asd"};
+	map(str);
 }
